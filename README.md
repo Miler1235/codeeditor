@@ -32,7 +32,7 @@ This project is a simple code editor that allows you to write and execute HTML, 
 To run the Penguin Code Editor on your local machine, follow these steps:
 
 1. **Clone the Repository**:
-git clone https://github.com/yourusername/penguin-code-editor.git
+git clone https://github.com/Miler1235/codeeditor.git
 
 
 2. **Navigate to the Project Directory**:
