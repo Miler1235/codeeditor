@@ -4,17 +4,17 @@ Welcome to the Penguin Code Editor, a web-based code editor with HTML, CSS, and 
 
 ## Table of Contents
 
-1. [Introduction] (#introduction)
+1. Introduction
 
-2. [Features] (#features)
+2. Features
 
-3. [Getting Started] (#getting-started)
+3. Getting Started
 
-4. [Usage] (#usage)
+4. Usage
 
-5. [Contribution] (#contribution)
+5. Contribution
 
-6. [License] (#license)
+6. License
 
 ## Introduction
 
