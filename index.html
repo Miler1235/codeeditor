@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <section class ="container">
+    <h1>Penguin Code Editor🐧</h1>
+
+    <div class="editor">
+        <div class="left">
+           
+            <!-- HTML Section -->
+            <label><i class='bx bxl-html5'></i>HTML</label>
+            <textarea onkeyup="run()" spellcheck="false" id="html-code"></textarea>
+            <button class="copyButton" data-textarea="html-code">Copy HTML</button>
+            <button class="saveButton" data-textarea="html-code">Save HTML</button>
+            <button class="lockButton" data-textarea="html-code">Lock HTML</button>
+
+            <!-- CSS Section -->
+            <label><i class='bx bxl-css3'></i>CSS</label>
+            <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
+            <button class="copyButton" data-textarea="css-code">Copy CSS</button>
+            <button class="saveButton" data-textarea="css-code">Save CSS</button>
+            <button class="lockButton" data-textarea="css-code">Lock CSS</button>
+
+            <!-- JavaScript Section -->
+            <label><i class='bx bxl-javascript' ></i>JavaScript</label>
+            <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
+            <button class="copyButton" data-textarea="js-code">Copy JavaScript</button>
+            <button class="saveButton" data-textarea="js-code">Save JavaScript</button>
+            <button class="lockButton" data-textarea="js-code">Lock JavaScript</button>
+        </div>
+
+        <div class="right">
+           
+            <!-- Output Section -->
+            <label><i class='bx bx-play' ></i>Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
